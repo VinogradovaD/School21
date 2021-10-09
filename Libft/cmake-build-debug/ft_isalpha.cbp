@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ft_isalpha"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/clockhar/Desktop/Libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/clockhar/Desktop/Libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/clockhar/Desktop/Libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isalpha">
+				<Option output="/Users/clockhar/Desktop/Libft/cmake-build-debug/ft_isalpha" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/clockhar/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isalpha"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isalpha/fast">
+				<Option output="/Users/clockhar/Desktop/Libft/cmake-build-debug/ft_isalpha" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/clockhar/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isalpha/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/clockhar/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/clockhar/Desktop/Libft/cmake-build-debug/ft_isalpha.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/ft_isalnum.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/ft_isascii.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/ft_isdigit.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/ft_isprint.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/ft_memset.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/ft_strlen.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/main.c">
+			<Option target="ft_isalpha"/>
+		</Unit>
+		<Unit filename="/Users/clockhar/Desktop/Libft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

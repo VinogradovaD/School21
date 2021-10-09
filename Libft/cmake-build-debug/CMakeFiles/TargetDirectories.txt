@@ -1,0 +1,3 @@
+/Users/clockhar/Desktop/Libft/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/clockhar/Desktop/Libft/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/clockhar/Desktop/Libft/cmake-build-debug/CMakeFiles/ft_isalpha.dir
