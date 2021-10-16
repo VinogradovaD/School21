@@ -1,20 +1,14 @@
 #include "libft.h"
-#include <stdio.h>
-#include <string.h>
-int main()
+#include <stdio.h>  // Для printf
+#include <string.h> // Для strrchr
+int main (void)
 {
-	// Массив источник данных
-	char app[1024]="вторая строка ";
+	char str1[16]="1234967890";
+	char str2[16]="";
 
-	// Массив приемник данных
-	char dst[1024]="первая строка";
-
-	// Добавляем строку из массива src в массив dst.
-	strcat (dst, app);
-
-	// Вывод массива dst на консоль
-	printf ("dst: %s\n",dst);
-
+	printf("%d", strncmp(str1, str2, 5));
 	return 0;
 }
+
+
 

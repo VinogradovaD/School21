@@ -117,120 +117,96 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1
+# Target rules for targets named proj
 
 # Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1
-.PHONY : 1
+proj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proj
+.PHONY : proj
 
 # fast build rule for target.
-1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
+proj/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
+.PHONY : proj/fast
 
-ft_memcpy.o: ft_memcpy.c.o
-.PHONY : ft_memcpy.o
-
-# target to build an object file
-ft_memcpy.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memcpy.c.o
-.PHONY : ft_memcpy.c.o
-
-ft_memcpy.i: ft_memcpy.c.i
-.PHONY : ft_memcpy.i
-
-# target to preprocess a source file
-ft_memcpy.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memcpy.c.i
-.PHONY : ft_memcpy.c.i
-
-ft_memcpy.s: ft_memcpy.c.s
-.PHONY : ft_memcpy.s
-
-# target to generate assembly for a file
-ft_memcpy.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memcpy.c.s
-.PHONY : ft_memcpy.c.s
-
-ft_memmove.o: ft_memmove.c.o
-.PHONY : ft_memmove.o
+ft_strchr.o: ft_strchr.c.o
+.PHONY : ft_strchr.o
 
 # target to build an object file
-ft_memmove.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memmove.c.o
-.PHONY : ft_memmove.c.o
+ft_strchr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strchr.c.o
+.PHONY : ft_strchr.c.o
 
-ft_memmove.i: ft_memmove.c.i
-.PHONY : ft_memmove.i
+ft_strchr.i: ft_strchr.c.i
+.PHONY : ft_strchr.i
 
 # target to preprocess a source file
-ft_memmove.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memmove.c.i
-.PHONY : ft_memmove.c.i
+ft_strchr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strchr.c.i
+.PHONY : ft_strchr.c.i
 
-ft_memmove.s: ft_memmove.c.s
-.PHONY : ft_memmove.s
+ft_strchr.s: ft_strchr.c.s
+.PHONY : ft_strchr.s
 
 # target to generate assembly for a file
-ft_memmove.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memmove.c.s
-.PHONY : ft_memmove.c.s
+ft_strchr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strchr.c.s
+.PHONY : ft_strchr.c.s
 
-ft_strcat.o: ft_strcat.c.o
-.PHONY : ft_strcat.o
+ft_strncmp.o: ft_strncmp.c.o
+.PHONY : ft_strncmp.o
 
 # target to build an object file
-ft_strcat.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strcat.c.o
-.PHONY : ft_strcat.c.o
+ft_strncmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strncmp.c.o
+.PHONY : ft_strncmp.c.o
 
-ft_strcat.i: ft_strcat.c.i
-.PHONY : ft_strcat.i
+ft_strncmp.i: ft_strncmp.c.i
+.PHONY : ft_strncmp.i
 
 # target to preprocess a source file
-ft_strcat.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strcat.c.i
-.PHONY : ft_strcat.c.i
+ft_strncmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strncmp.c.i
+.PHONY : ft_strncmp.c.i
 
-ft_strcat.s: ft_strcat.c.s
-.PHONY : ft_strcat.s
+ft_strncmp.s: ft_strncmp.c.s
+.PHONY : ft_strncmp.s
 
 # target to generate assembly for a file
-ft_strcat.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strcat.c.s
-.PHONY : ft_strcat.c.s
+ft_strncmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strncmp.c.s
+.PHONY : ft_strncmp.c.s
 
-ft_strlcpy.o: ft_strlcpy.c.o
-.PHONY : ft_strlcpy.o
+ft_strrchr.o: ft_strrchr.c.o
+.PHONY : ft_strrchr.o
 
 # target to build an object file
-ft_strlcpy.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strlcpy.c.o
-.PHONY : ft_strlcpy.c.o
+ft_strrchr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strrchr.c.o
+.PHONY : ft_strrchr.c.o
 
-ft_strlcpy.i: ft_strlcpy.c.i
-.PHONY : ft_strlcpy.i
+ft_strrchr.i: ft_strrchr.c.i
+.PHONY : ft_strrchr.i
 
 # target to preprocess a source file
-ft_strlcpy.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strlcpy.c.i
-.PHONY : ft_strlcpy.c.i
+ft_strrchr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strrchr.c.i
+.PHONY : ft_strrchr.c.i
 
-ft_strlcpy.s: ft_strlcpy.c.s
-.PHONY : ft_strlcpy.s
+ft_strrchr.s: ft_strrchr.c.s
+.PHONY : ft_strrchr.s
 
 # target to generate assembly for a file
-ft_strlcpy.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strlcpy.c.s
-.PHONY : ft_strlcpy.c.s
+ft_strrchr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strrchr.c.s
+.PHONY : ft_strrchr.c.s
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -238,7 +214,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -246,7 +222,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -257,19 +233,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 1"
-	@echo "... ft_memcpy.o"
-	@echo "... ft_memcpy.i"
-	@echo "... ft_memcpy.s"
-	@echo "... ft_memmove.o"
-	@echo "... ft_memmove.i"
-	@echo "... ft_memmove.s"
-	@echo "... ft_strcat.o"
-	@echo "... ft_strcat.i"
-	@echo "... ft_strcat.s"
-	@echo "... ft_strlcpy.o"
-	@echo "... ft_strlcpy.i"
-	@echo "... ft_strlcpy.s"
+	@echo "... proj"
+	@echo "... ft_strchr.o"
+	@echo "... ft_strchr.i"
+	@echo "... ft_strchr.s"
+	@echo "... ft_strncmp.o"
+	@echo "... ft_strncmp.i"
+	@echo "... ft_strncmp.s"
+	@echo "... ft_strrchr.o"
+	@echo "... ft_strrchr.i"
+	@echo "... ft_strrchr.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

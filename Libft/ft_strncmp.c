@@ -1,32 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By:  <>                                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 16:37:48 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/16 15:49:55 by                  ###   ########.fr       */
+/*   Created: 2021/10/16 18:38:07 by                   #+#    #+#             */
+/*   Updated: 2021/10/16 18:50:06 by                  ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
-void	*ft_memmove(void *dst, const void *src, size_t len)
+int ft_strncmp(const char *str1, const char *str2, size_t n)
 {
-	if (dst == NULL && src == NULL)
-		return NULL;
-	else if(src < dst)
+	char *a;
+	char* b;
+	size_t i;
+
+	a = (char *)str1;
+	b = (char *) str2;
+	i = 0;
+	if (*a = NULL)
 	{
-		while(len > 0)
-		{
-			((char *)dst)[len - 1] = ((char*) src)[len - 1];
-			len--;
-		}
+
 	}
-	else
+	while (*a != '\0' && *b != '\0' && i < n)
 	{
-		ft_memcpy(dst, src, len);
+		if (a[i] == b[i])
+			i++;
+		else
+			return (a[i] - b[i]);
 	}
-	return dst;
+	return (0);
 }

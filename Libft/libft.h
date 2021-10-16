@@ -6,7 +6,7 @@
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/11 16:19:19 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/16 15:09:37 by                  ###   ########.fr       */
+/*   Updated: 2021/10/16 17:11:35 by                  ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,11 @@ void   *ft_memmove(void *restrict dst, const void *restrict src, size_t len);
 size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t ft_strlcat(char * restrict dst, const char * restrict src, size_t
 dstsize);
+
 int    ft_toupper(int ch);
 int		ft_tolower(int ch);
 char	*ft_strchr(const char *s, int c);
+char *ft_strrchr(const char *s, int c);
+int ft_strncmp(const char *str1, const char *str2, size_t n);
 
 #endif
