@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/clockhar/Desktop/Libft
+CMAKE_SOURCE_DIR = /Users/clockhar/Desktop/libft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/clockhar/Desktop/Libft/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/clockhar/Desktop/libft/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/clockhar/Desktop/Libft/cmake-build-debug/CMakeFiles /Users/clockhar/Desktop/Libft/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/clockhar/Desktop/libft/cmake-build-debug/CMakeFiles /Users/clockhar/Desktop/libft/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/clockhar/Desktop/Libft/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/clockhar/Desktop/libft/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,192 +117,120 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ft_isalpha
+# Target rules for targets named 1
 
 # Build rule for target.
-ft_isalpha: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ft_isalpha
-.PHONY : ft_isalpha
+1 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1
+.PHONY : 1
 
 # fast build rule for target.
-ft_isalpha/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/build
-.PHONY : ft_isalpha/fast
+1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
 
-ft_isalnum.o: ft_isalnum.c.o
-.PHONY : ft_isalnum.o
-
-# target to build an object file
-ft_isalnum.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isalnum.c.o
-.PHONY : ft_isalnum.c.o
-
-ft_isalnum.i: ft_isalnum.c.i
-.PHONY : ft_isalnum.i
-
-# target to preprocess a source file
-ft_isalnum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isalnum.c.i
-.PHONY : ft_isalnum.c.i
-
-ft_isalnum.s: ft_isalnum.c.s
-.PHONY : ft_isalnum.s
-
-# target to generate assembly for a file
-ft_isalnum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isalnum.c.s
-.PHONY : ft_isalnum.c.s
-
-ft_isalpha.o: ft_isalpha.c.o
-.PHONY : ft_isalpha.o
+ft_memcpy.o: ft_memcpy.c.o
+.PHONY : ft_memcpy.o
 
 # target to build an object file
-ft_isalpha.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isalpha.c.o
-.PHONY : ft_isalpha.c.o
+ft_memcpy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memcpy.c.o
+.PHONY : ft_memcpy.c.o
 
-ft_isalpha.i: ft_isalpha.c.i
-.PHONY : ft_isalpha.i
+ft_memcpy.i: ft_memcpy.c.i
+.PHONY : ft_memcpy.i
 
 # target to preprocess a source file
-ft_isalpha.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isalpha.c.i
-.PHONY : ft_isalpha.c.i
+ft_memcpy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memcpy.c.i
+.PHONY : ft_memcpy.c.i
 
-ft_isalpha.s: ft_isalpha.c.s
-.PHONY : ft_isalpha.s
+ft_memcpy.s: ft_memcpy.c.s
+.PHONY : ft_memcpy.s
 
 # target to generate assembly for a file
-ft_isalpha.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isalpha.c.s
-.PHONY : ft_isalpha.c.s
+ft_memcpy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memcpy.c.s
+.PHONY : ft_memcpy.c.s
 
-ft_isascii.o: ft_isascii.c.o
-.PHONY : ft_isascii.o
+ft_memmove.o: ft_memmove.c.o
+.PHONY : ft_memmove.o
 
 # target to build an object file
-ft_isascii.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isascii.c.o
-.PHONY : ft_isascii.c.o
+ft_memmove.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memmove.c.o
+.PHONY : ft_memmove.c.o
 
-ft_isascii.i: ft_isascii.c.i
-.PHONY : ft_isascii.i
+ft_memmove.i: ft_memmove.c.i
+.PHONY : ft_memmove.i
 
 # target to preprocess a source file
-ft_isascii.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isascii.c.i
-.PHONY : ft_isascii.c.i
+ft_memmove.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memmove.c.i
+.PHONY : ft_memmove.c.i
 
-ft_isascii.s: ft_isascii.c.s
-.PHONY : ft_isascii.s
+ft_memmove.s: ft_memmove.c.s
+.PHONY : ft_memmove.s
 
 # target to generate assembly for a file
-ft_isascii.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isascii.c.s
-.PHONY : ft_isascii.c.s
+ft_memmove.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_memmove.c.s
+.PHONY : ft_memmove.c.s
 
-ft_isdigit.o: ft_isdigit.c.o
-.PHONY : ft_isdigit.o
+ft_strcat.o: ft_strcat.c.o
+.PHONY : ft_strcat.o
 
 # target to build an object file
-ft_isdigit.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isdigit.c.o
-.PHONY : ft_isdigit.c.o
+ft_strcat.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strcat.c.o
+.PHONY : ft_strcat.c.o
 
-ft_isdigit.i: ft_isdigit.c.i
-.PHONY : ft_isdigit.i
+ft_strcat.i: ft_strcat.c.i
+.PHONY : ft_strcat.i
 
 # target to preprocess a source file
-ft_isdigit.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isdigit.c.i
-.PHONY : ft_isdigit.c.i
+ft_strcat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strcat.c.i
+.PHONY : ft_strcat.c.i
 
-ft_isdigit.s: ft_isdigit.c.s
-.PHONY : ft_isdigit.s
+ft_strcat.s: ft_strcat.c.s
+.PHONY : ft_strcat.s
 
 # target to generate assembly for a file
-ft_isdigit.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isdigit.c.s
-.PHONY : ft_isdigit.c.s
+ft_strcat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strcat.c.s
+.PHONY : ft_strcat.c.s
 
-ft_isprint.o: ft_isprint.c.o
-.PHONY : ft_isprint.o
+ft_strlcpy.o: ft_strlcpy.c.o
+.PHONY : ft_strlcpy.o
 
 # target to build an object file
-ft_isprint.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isprint.c.o
-.PHONY : ft_isprint.c.o
+ft_strlcpy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strlcpy.c.o
+.PHONY : ft_strlcpy.c.o
 
-ft_isprint.i: ft_isprint.c.i
-.PHONY : ft_isprint.i
-
-# target to preprocess a source file
-ft_isprint.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isprint.c.i
-.PHONY : ft_isprint.c.i
-
-ft_isprint.s: ft_isprint.c.s
-.PHONY : ft_isprint.s
-
-# target to generate assembly for a file
-ft_isprint.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_isprint.c.s
-.PHONY : ft_isprint.c.s
-
-ft_memset.o: ft_memset.c.o
-.PHONY : ft_memset.o
-
-# target to build an object file
-ft_memset.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_memset.c.o
-.PHONY : ft_memset.c.o
-
-ft_memset.i: ft_memset.c.i
-.PHONY : ft_memset.i
+ft_strlcpy.i: ft_strlcpy.c.i
+.PHONY : ft_strlcpy.i
 
 # target to preprocess a source file
-ft_memset.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_memset.c.i
-.PHONY : ft_memset.c.i
+ft_strlcpy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strlcpy.c.i
+.PHONY : ft_strlcpy.c.i
 
-ft_memset.s: ft_memset.c.s
-.PHONY : ft_memset.s
-
-# target to generate assembly for a file
-ft_memset.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_memset.c.s
-.PHONY : ft_memset.c.s
-
-ft_strlen.o: ft_strlen.c.o
-.PHONY : ft_strlen.o
-
-# target to build an object file
-ft_strlen.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_strlen.c.o
-.PHONY : ft_strlen.c.o
-
-ft_strlen.i: ft_strlen.c.i
-.PHONY : ft_strlen.i
-
-# target to preprocess a source file
-ft_strlen.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_strlen.c.i
-.PHONY : ft_strlen.c.i
-
-ft_strlen.s: ft_strlen.c.s
-.PHONY : ft_strlen.s
+ft_strlcpy.s: ft_strlcpy.c.s
+.PHONY : ft_strlcpy.s
 
 # target to generate assembly for a file
-ft_strlen.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/ft_strlen.c.s
-.PHONY : ft_strlen.c.s
+ft_strlcpy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/ft_strlcpy.c.s
+.PHONY : ft_strlcpy.c.s
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -310,7 +238,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -318,7 +246,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_isalpha.dir/build.make CMakeFiles/ft_isalpha.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -329,28 +257,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ft_isalpha"
-	@echo "... ft_isalnum.o"
-	@echo "... ft_isalnum.i"
-	@echo "... ft_isalnum.s"
-	@echo "... ft_isalpha.o"
-	@echo "... ft_isalpha.i"
-	@echo "... ft_isalpha.s"
-	@echo "... ft_isascii.o"
-	@echo "... ft_isascii.i"
-	@echo "... ft_isascii.s"
-	@echo "... ft_isdigit.o"
-	@echo "... ft_isdigit.i"
-	@echo "... ft_isdigit.s"
-	@echo "... ft_isprint.o"
-	@echo "... ft_isprint.i"
-	@echo "... ft_isprint.s"
-	@echo "... ft_memset.o"
-	@echo "... ft_memset.i"
-	@echo "... ft_memset.s"
-	@echo "... ft_strlen.o"
-	@echo "... ft_strlen.i"
-	@echo "... ft_strlen.s"
+	@echo "... 1"
+	@echo "... ft_memcpy.o"
+	@echo "... ft_memcpy.i"
+	@echo "... ft_memcpy.s"
+	@echo "... ft_memmove.o"
+	@echo "... ft_memmove.i"
+	@echo "... ft_memmove.s"
+	@echo "... ft_strcat.o"
+	@echo "... ft_strcat.i"
+	@echo "... ft_strcat.s"
+	@echo "... ft_strlcpy.o"
+	@echo "... ft_strlcpy.i"
+	@echo "... ft_strlcpy.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

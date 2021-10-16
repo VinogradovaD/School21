@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/clockhar/Desktop/libft/ft_memcpy.c
+libft.h
+/Users/clockhar/Desktop/libft/libft.h
+
+/Users/clockhar/Desktop/libft/ft_memmove.c
+libft.h
+/Users/clockhar/Desktop/libft/libft.h
+
+/Users/clockhar/Desktop/libft/ft_strlcpy.c
+libft.h
+/Users/clockhar/Desktop/libft/libft.h
+
+/Users/clockhar/Desktop/libft/libft.h
+stdio.h
+-
+
+/Users/clockhar/Desktop/libft/main.c
+libft.h
+/Users/clockhar/Desktop/libft/libft.h
+stdio.h
+-
+string.h
+-
+

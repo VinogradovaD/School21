@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By:  <>                                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/09 18:51:39 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/13 17:32:56 by                  ###   ########.fr       */
+/*   Created: 2021/10/16 15:27:08 by                   #+#    #+#             */
+/*   Updated: 2021/10/16 15:27:08 by                  ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void	*ft_memset(void *buf, int ch, size_t count)
+size_t ft_strlcat(char * restrict dst, const char * restrict src, size_t
+dstsize)
 {
-	size_t	n;
 
-	n = 0;
-	while (n < count)
-	{
-		((char *)buf)[n] = (char)ch;
-		n++;
-	}
-	return (buf);
 }

@@ -6,17 +6,17 @@
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 16:49:29 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/09 18:35:29 by                  ###   ########.fr       */
+/*   Updated: 2021/10/16 14:33:59 by                  ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-size_t	strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-	int	len;
+	size_t	len;
 
 	len = 0;
-	while (s)
+	while (*s != '\0')
 	{
 		len++;
 		s++;
