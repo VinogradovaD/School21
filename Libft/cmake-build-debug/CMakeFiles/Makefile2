@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/clockhar/Desktop/libft/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/proj.dir/all
+all: CMakeFiles/libft.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/proj.dir/clean
+clean: CMakeFiles/libft.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/proj.dir
+# Target rules for target CMakeFiles/libft.dir
 
 # All Build rule for target.
-CMakeFiles/proj.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/clockhar/Desktop/libft/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target proj"
-.PHONY : CMakeFiles/proj.dir/all
+CMakeFiles/libft.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/clockhar/Desktop/libft/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target libft"
+.PHONY : CMakeFiles/libft.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/proj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/clockhar/Desktop/libft/cmake-build-debug/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proj.dir/all
+CMakeFiles/libft.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/clockhar/Desktop/libft/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libft.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/clockhar/Desktop/libft/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/proj.dir/rule
+.PHONY : CMakeFiles/libft.dir/rule
 
 # Convenience name for target.
-proj: CMakeFiles/proj.dir/rule
-.PHONY : proj
+libft: CMakeFiles/libft.dir/rule
+.PHONY : libft
 
 # clean rule for target.
-CMakeFiles/proj.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/clean
-.PHONY : CMakeFiles/proj.dir/clean
+CMakeFiles/libft.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/clean
+.PHONY : CMakeFiles/libft.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

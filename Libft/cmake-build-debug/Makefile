@@ -117,96 +117,72 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named proj
+# Target rules for targets named libft
 
 # Build rule for target.
-proj: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proj
-.PHONY : proj
+libft: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libft
+.PHONY : libft
 
 # fast build rule for target.
-proj/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
-.PHONY : proj/fast
+libft/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/build
+.PHONY : libft/fast
 
-ft_strchr.o: ft_strchr.c.o
-.PHONY : ft_strchr.o
-
-# target to build an object file
-ft_strchr.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strchr.c.o
-.PHONY : ft_strchr.c.o
-
-ft_strchr.i: ft_strchr.c.i
-.PHONY : ft_strchr.i
-
-# target to preprocess a source file
-ft_strchr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strchr.c.i
-.PHONY : ft_strchr.c.i
-
-ft_strchr.s: ft_strchr.c.s
-.PHONY : ft_strchr.s
-
-# target to generate assembly for a file
-ft_strchr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strchr.c.s
-.PHONY : ft_strchr.c.s
-
-ft_strncmp.o: ft_strncmp.c.o
-.PHONY : ft_strncmp.o
+ft_atoi.o: ft_atoi.c.o
+.PHONY : ft_atoi.o
 
 # target to build an object file
-ft_strncmp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strncmp.c.o
-.PHONY : ft_strncmp.c.o
+ft_atoi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi.c.o
+.PHONY : ft_atoi.c.o
 
-ft_strncmp.i: ft_strncmp.c.i
-.PHONY : ft_strncmp.i
+ft_atoi.i: ft_atoi.c.i
+.PHONY : ft_atoi.i
 
 # target to preprocess a source file
-ft_strncmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strncmp.c.i
-.PHONY : ft_strncmp.c.i
+ft_atoi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi.c.i
+.PHONY : ft_atoi.c.i
 
-ft_strncmp.s: ft_strncmp.c.s
-.PHONY : ft_strncmp.s
+ft_atoi.s: ft_atoi.c.s
+.PHONY : ft_atoi.s
 
 # target to generate assembly for a file
-ft_strncmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strncmp.c.s
-.PHONY : ft_strncmp.c.s
+ft_atoi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi.c.s
+.PHONY : ft_atoi.c.s
 
-ft_strrchr.o: ft_strrchr.c.o
-.PHONY : ft_strrchr.o
+ft_strnstr.o: ft_strnstr.c.o
+.PHONY : ft_strnstr.o
 
 # target to build an object file
-ft_strrchr.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strrchr.c.o
-.PHONY : ft_strrchr.c.o
+ft_strnstr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strnstr.c.o
+.PHONY : ft_strnstr.c.o
 
-ft_strrchr.i: ft_strrchr.c.i
-.PHONY : ft_strrchr.i
+ft_strnstr.i: ft_strnstr.c.i
+.PHONY : ft_strnstr.i
 
 # target to preprocess a source file
-ft_strrchr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strrchr.c.i
-.PHONY : ft_strrchr.c.i
+ft_strnstr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strnstr.c.i
+.PHONY : ft_strnstr.c.i
 
-ft_strrchr.s: ft_strrchr.c.s
-.PHONY : ft_strrchr.s
+ft_strnstr.s: ft_strnstr.c.s
+.PHONY : ft_strnstr.s
 
 # target to generate assembly for a file
-ft_strrchr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/ft_strrchr.c.s
-.PHONY : ft_strrchr.c.s
+ft_strnstr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_strnstr.c.s
+.PHONY : ft_strnstr.c.s
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -214,7 +190,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -222,7 +198,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -233,16 +209,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... proj"
-	@echo "... ft_strchr.o"
-	@echo "... ft_strchr.i"
-	@echo "... ft_strchr.s"
-	@echo "... ft_strncmp.o"
-	@echo "... ft_strncmp.i"
-	@echo "... ft_strncmp.s"
-	@echo "... ft_strrchr.o"
-	@echo "... ft_strrchr.i"
-	@echo "... ft_strrchr.s"
+	@echo "... libft"
+	@echo "... ft_atoi.o"
+	@echo "... ft_atoi.i"
+	@echo "... ft_atoi.s"
+	@echo "... ft_strnstr.o"
+	@echo "... ft_strnstr.i"
+	@echo "... ft_strnstr.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

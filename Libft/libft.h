@@ -6,7 +6,7 @@
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/11 16:19:19 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/16 17:11:35 by                  ###   ########.fr       */
+/*   Updated: 2021/10/17 18:28:01 by                  ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,12 @@ int		ft_tolower(int ch);
 char	*ft_strchr(const char *s, int c);
 char *ft_strrchr(const char *s, int c);
 int ft_strncmp(const char *str1, const char *str2, size_t n);
+void *ft_memchr (const void *arr, int c, size_t n);
+int ft_memcmp(const void *buf1, const void *buf2, size_t count);
+char *ft_strnstr(const char *haystack, const char *needle, size_t len);
+int ft_atoi(const char *str);
+
+int ft_rank(const char *str);
+int ft_pow(int num, int pow);
 
 #endif

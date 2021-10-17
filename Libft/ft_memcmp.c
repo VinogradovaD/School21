@@ -1,24 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By:  <>                                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/16 18:38:07 by                   #+#    #+#             */
-/*   Updated: 2021/10/17 13:54:33 by                  ###   ########.fr       */
+/*   Created: 2021/10/17 14:24:39 by                   #+#    #+#             */
+/*   Updated: 2021/10/17 14:49:16 by                  ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-int ft_strncmp(const char *str1, const char *str2, size_t n)
+int ft_memcmp(const void *buf1, const void *buf2, size_t count)
 {
+	char *a;
+	char *b;
 	size_t i;
 
+	a = (char *)buf1;
+	b = (char *)buf2;
 	i = 0;
-	if (n == 0)
+	if (count == 0)
 		return (0);
-	while (str1[i] != '\0' && str1[i] == str2[i] && i < n - 1)
+	while (a[i] == b[i] && i < count - 1)
 		i++;
-	return ((unsigned char)str1[i] - (unsigned char)str2[i]);
+	return ((unsigned char)a[i] - (unsigned char)b[i]);
 }

@@ -6,7 +6,7 @@
 #    By: clockhar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/11 16:31:56 by clockhar          #+#    #+#              #
-#   Updated: 2021/10/16 17:11:35 by                  ###   ########.fr       # #
+#   Updated: 2021/10/17 14:39:12 by                  ###   ########.fr       # #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,11 @@ SRC = ft_isalpha.c\
 	  ft_tolower.c\
 	  ft_strchr.c\
 	  ft_strrchr.c\
-      ft_strncmp.c
+      ft_strncmp.c\
+      ft_memchr.c\
+      ft_memcmp.c\
+      ft_strnstr.c\
+      ft_atoi.c
 
 
 OBJECT = $(SRC:%.c= %.o)

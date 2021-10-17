@@ -1,14 +1,12 @@
 #include "libft.h"
-#include <stdio.h>  // Для printf
-#include <string.h> // Для strrchr
-int main (void)
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
 {
-	char str1[16]="1234967890";
-	char str2[16]="";
-
-	printf("%d", strncmp(str1, str2, 5));
+	char *str = "1";
+	int *num = (int *)str;
+	//printf ("%d\n",atoi (Str));
+	printf("%d", &num);
 	return 0;
+
 }
-
-
-
