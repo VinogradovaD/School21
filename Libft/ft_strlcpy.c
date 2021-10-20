@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 17:26:41 by                   #+#    #+#             */
-/*   Updated: 2021/10/16 15:16:54 by                  ###   ########.fr       */
+/*   Created: 2021/10/13 17:26:41 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/20 15:17:01 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-size_t ft_strlcpy(char *dst, const char *src, size_t dstsize)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
-	if(dstsize > 0)
+	if (dstsize > 0)
 	{
 		while (src[i] != '\0' && i < (dstsize - 1))
 		{

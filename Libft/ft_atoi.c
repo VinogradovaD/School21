@@ -3,56 +3,37 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/17 18:26:47 by                   #+#    #+#             */
-/*   Updated: 2021/10/17 19:17:37 by                  ###   ########.fr       */
+/*   Created: 2021/10/17 18:26:47 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/20 15:29:22 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-int ft_rank(const char *str);
-int ft_pow(int num, int pow);
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
-	int num;
-	int negative;
-	int rank = ft_rank(str);
+	int	number;
+	int	negative;
 
-	num = 0;
-	if (*str == '-')
-		negative = -1;
-	while (*str >= '0' && *str <= '9' && rank != 0)
+	number = 0;
+	negative = 1;
+	while (*str && (*str == ' ' || *str == '\t' || *str == '\n' || *str == '\v'
+			|| *str == '\f' || *str == '\r'))
 	{
-		num += *((int*)str) * ft_pow(10, rank);
 		str++;
-		rank--;
 	}
-	num *= negative;
-	return (num);
-}
-
-int ft_rank(const char *str)
-{
-	int rank;
-
-	rank = 0;
+	if (*str == '+')
+		str++;
+	else if (*str == '-')
+	{
+		negative = -1;
+		str++;
+	}
 	while (*str >= '0' && *str <= '9')
 	{
-		rank++;
+		number = number * 10 + (*str - 48);
 		str++;
 	}
-	return (rank);
-}
-int ft_pow(int num, int pow)
-{
-	int new_num;
-
-	new_num = 1;
-	while (pow > 0)
-	{
-		new_num = new_num * num;
-		pow--;
-	}
-	return (new_num);
+	return (number * negative);
 }

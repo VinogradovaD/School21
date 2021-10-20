@@ -6,7 +6,7 @@
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/13 12:59:51 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/16 15:49:55 by                  ###   ########.fr       */
+/*   Updated: 2021/10/20 15:22:55 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 
 	count = 0;
 	if (dst == NULL && src == NULL)
-		return NULL;
+		return (0);
 	while (count < n)
 	{
 		((char *)dst)[count] = ((char *)src)[count];

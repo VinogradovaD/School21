@@ -1,28 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/17 14:24:39 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/20 15:22:01 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/20 13:54:46 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/20 15:10:15 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-int	ft_memcmp(const void *buf1, const void *buf2, size_t count)
+void	*ft_calloc(size_t nitems, size_t size)
 {
-	char	*a;
-	char	*b;
-	size_t	i;
+	void	*buf;
 
-	a = (char *)buf1;
-	b = (char *)buf2;
-	i = 0;
-	if (count == 0)
-		return (0);
-	while (a[i] == b[i] && i < count - 1)
-		i++;
-	return ((unsigned char)a[i] - (unsigned char)b[i]);
+	buf = malloc(size * nitems);
+	if (buf)
+	{
+		ft_bzero(buf, size * nitems);
+	}
+	return (buf);
 }
