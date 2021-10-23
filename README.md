@@ -1,2 +1,3 @@
-### Проекты в Школе 21
-####Libft
+## Проекты в Школе 21
+
+### [1. Libft](https://github.com/VinogradovaD/School_21/blob/main/Libft/README.md)
