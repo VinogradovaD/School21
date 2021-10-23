@@ -1,24 +1,43 @@
 ## Часть 1
 
-• ft_isalpha
+• ft_isalpha()
 
-• ft_isdigit
-• ft_isalnum
+• ft_isdigit()
 
-• ft_isascii
+• ft_isalnum()
 
-• ft_isprint
+• ft_isascii()
 
-• ft_strlen
+• ft_isprint()
 
-• ft_memset
+• ft_strlen()
 
-• ft_bzero
+• ft_memset()
 
-• ft_memcpy
+• ft_bzero()
 
-• ft_memmove
+• ft_memcpy()
 
-• ft_strlcpy
+• ft_memmove()
 
-• ft_strlcat
+• ft_strlcpy()
+
+• ft_strlcat()
+
+• ft_toupper()
+
+• ft_tolower()
+
+• ft_strchr()
+
+• ft_strrchr()
+
+• ft_strncmp()
+
+• ft_memchr()
+
+• ft_memcmp()
+
+• ft_strnstr()
+
+• ft_atoi()
