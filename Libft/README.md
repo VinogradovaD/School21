@@ -31,8 +31,8 @@
 
 | Функция                                                                                            | Прототип      | Описание      |
 | -------------------------------------------------------------------------------------------------- |---------------|---------------|
-|[ft_substr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_substr.c)        |
-|[ft_strjoin](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strjoin.c)      |
+|[ft_substr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_substr.c)        |char	\*ft_substr(char const \*s, unsigned int start, size_t len)| Возвращает подстроку длины len, начинающуюся с элемента по указателю start в строке с указателем s|
+|[ft_strjoin](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strjoin.c)      |char	\*ft_strjoin(char const \*s1, char const \*s2)| ВОзращает новую строку, которая состоит из строк с указателями s1 и s2.|
 |[ft_strtrim](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strtrim.c)      |
 |[ft_split](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_split.c)          |
 |[ft_itoa](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_itoa.c)            |
