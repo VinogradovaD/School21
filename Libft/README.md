@@ -4,11 +4,11 @@
 | -------------------------------------------------------------------------------------------- |----------------------- | --------------------------------------------- |
 |[ft_isalpha](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_isalpha.c)| int	ft_isalpha(int ch)| Проверяет является ли входной параметр буквой.|
 |[ft_isdigit](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_isdigit.c)| int	ft_isdigit(int ch)| Проверяет является ли входной параметр цифрой.|
-|[ft_isalnum]() |
-|[ft_isascii]() |
-|[ft_isprint]() |
-|[ft_strlen]()  |
-|[ft_memset]()  |
+|[ft_isalnum](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_isalnum.c)| int	ft_isalnum(int ch)| Проверяет является ли входной параметр буквой или цифрой.|
+|[ft_isascii](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_isascii.c)| int	ft_isascii(int ch)| Проверяет является ли входной параметр элементов ascii таблицы.|
+|[ft_isprint](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_isprint.c)| int	ft_isprint(int ch)| Проверяет является ли входной параметр печатаемым символом.
+|[ft_strlen](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlen.c)  | size_t	ft_strlen(const char \*s)| Возвращает длину входной строки.|
+|[ft_memset](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memset.c)  | void	\*ft_memset(void \*buf, int ch, size_t count)| Заполняет count байтов блока памяти, через указатель buf символом сh.|
 |[ft_bzero]()   |
 |[ft_memcpy]()  |
 |[ft_memmove]() |
