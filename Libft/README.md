@@ -8,9 +8,9 @@
 |[ft_isascii](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_isascii.c)| int	ft_isascii(int ch)| Проверяет является ли входной параметр элементов ascii таблицы.|
 |[ft_isprint](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_isprint.c)| int	ft_isprint(int ch)| Проверяет является ли входной параметр печатаемым символом.
 |[ft_strlen](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlen.c)  | size_t	ft_strlen(const char \*s)| Возвращает длину входной строки.|
-|[ft_memset](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memset.c)  | void	\*ft_memset(void \*buf, int ch, size_t count)| Заполняет count байтов блока памяти, через указатель buf символом сh.|
-|[ft_bzero]()   |
-|[ft_memcpy]()  |
+|[ft_memset](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memset.c)  | void	\*ft_memset(void \*buf, int ch, size_t count)| Заполняет count байтов блока памяти по указателю buf символом сh.|
+|[ft_bzero](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_bzero.c)    | void	ft_bzero(void \*buf, size_t count) | Заполняет count байтов блока памяти по указателю buf нулевым значением.|
+|[ft_memcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memcpy.c)  | void	\*ft_memcpy(void \*dst, const void \*src, size_t n) | Rопирует n байтов первого блока памяти, на который ссылается указатель src, во второй блок памяти, на который ссылается указатель dst.|
 |[ft_memmove]() |
 |[ft_strlcpy]() |
 |[ft_strlcat]() |
