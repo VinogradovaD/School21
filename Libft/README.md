@@ -29,19 +29,19 @@
 
 ## Часть 2
 
-| Функция         | Прототип      | Описание      |
-| --------------- |---------------|---------------|
-|[ft_substr]()    |
-|[ft_strjoin]()   |
-|[ft_strtrim]()   |
-|[ft_split]()     |
-|[ft_itoa]()      |
-|[ft_strmapi]()   |
-|[ft_striteri]()  |
-|[ft_putchar_fd]()|
-|[ft_putstr_fd]() |
-|[ft_putendl_fd]()|
-|[ft_putnbr_fd]() |
+| Функция                                                                                            | Прототип      | Описание      |
+| -------------------------------------------------------------------------------------------------- |---------------|---------------|
+|[ft_substr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_substr.c)        |
+|[ft_strjoin](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strjoin.c)      |
+|[ft_strtrim](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strtrim.c)      |
+|[ft_split](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_split.c)          |
+|[ft_itoa](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_itoa.c)            |
+|[ft_strmapi](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strmapi.c)      |
+|[ft_striteri](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_striteri.c)    |
+|[ft_putchar_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putchar_fd.c)|
+|[ft_putstr_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putstr_fd.c)  |
+|[ft_putendl_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putendl_fd.c)|
+|[ft_putnbr_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putnbr_fd.c)  |
 
 
 ## Бонусы
