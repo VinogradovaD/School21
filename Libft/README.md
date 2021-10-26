@@ -13,9 +13,9 @@
 |[ft_memcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memcpy.c)  | void	\*ft_memcpy(void \*dst, const void \*src, size_t n)| Копирует n байт из первого блока памяти, на который указывает параметр src, во второй блок памяти, на который указывет параметр dst.|
 |[ft_memmove](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memmove.c)| void	\*ft_memmove(void \*dst, const void \*src, size_t len)| Копирует так же, как и ft_memcpy, но при этом массивы могу пересекаться. 
 |[ft_strlcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlcpy.c) | size_t	ft_strlcpy(char \*dst, const char \*src, size_t dstsize)| Копирует из строки src в буфер dst не более чем dstsize - 1 байт символов, в конец строки устранавливает нулевой символ. Возвращае  размер строки по адресу src.|
-|[ft_strlcat](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlcat.c) | size_t	ft_strlcat(char \*dst, const char \*src, size_t dstsize)| 
-|[ft_toupper](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_toupper.c) | 
-|[ft_tolower](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_tolower.c) |
+|[ft_strlcat](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlcat.c) | size_t	ft_strlcat(char \*dst, const char \*src, size_t dstsize)| Копирует строку src в конец строки dst. Возвращает суммарную длину строк по адресам src и dst.|
+|[ft_toupper](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_toupper.c) | int	ft_toupper(int ch)| Преобразует буквы из нижнего ригистра в верхний.|
+|[ft_tolower](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_tolower.c) | int	ft_tolower(int ch)| Преобразует буквы из верхнего регистра в нижний.|
 |[ft_strchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strchr.c)  |
 |[ft_strrchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strrchr.c) |
 |[ft_strncmp](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strncmp.c) |
