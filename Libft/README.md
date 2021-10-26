@@ -11,20 +11,20 @@
 |[ft_memset](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memset.c)  | void	\*ft_memset(void \*buf, int ch, size_t count)| Заполняет count байтов блока памяти по указателю buf символом сh.|
 |[ft_bzero](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_bzero.c)    | void	ft_bzero(void \*buf, size_t count) | Заполняет count байтов блока памяти по указателю buf нулевым значением.|
 |[ft_memcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memcpy.c)  | void	\*ft_memcpy(void \*dst, const void \*src, size_t n)| Копирует n байт из первого блока памяти, на который указывает параметр src, во второй блок памяти, на который указывет параметр dst.|
-|[ft_memmove](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memmove.c)| void	\*ft_memmove(void \*dst, const void \*src, size_t len)| Копирует так же, как и ft_memcpy, но при этом массивы могу тпересекаться. 
+|[ft_memmove](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memmove.c)| void	\*ft_memmove(void \*dst, const void \*src, size_t len)| Копирует так же, как и ft_memcpy, но при этом массивы могу пересекаться. 
 |[ft_strlcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlcpy.c)| size_t	ft_strlcpy(char \*dst, const char \*src, size_t dstsize)| 
-|[ft_strlcat]() |
-|[ft_toupper]() |
-|[ft_tolower]() |
-|[ft_strchr]()  |
-|[ft_strrchr]() |
-|[ft_strncmp]() |
-|[ft_memchr]()  |
-|[ft_memcmp]()  |
-|[ft_strnstr]() |
-|[ft_atoi]()    | 
-|[calloc]()     |
-|[strdup]()     |
+|[ft_strlcat](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlcat.c) |
+|[ft_toupper](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_toupper.c) |
+|[ft_tolower](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_tolower.c) |
+|[ft_strchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strchr.c)  |
+|[ft_strrchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strrchr.c) |
+|[ft_strncmp](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strncmp.c) |
+|[ft_memchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memchr.c)  |
+|[ft_memcmp](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memcmp.c)  |
+|[ft_strnstr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strnstr.c) |
+|[ft_atoi](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_atoi.c)    | 
+|[ft_calloc](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_calloc.c)   |
+|[ft_strdup](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strdup.c)   |
 
 
 ## Часть 2
