@@ -16,9 +16,9 @@
 |[ft_strlcat](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlcat.c) | size_t	ft_strlcat(char \*dst, const char \*src, size_t dstsize)| Копирует строку src в конец строки dst. Возвращает суммарную длину строк по адресам src и dst.|
 |[ft_toupper](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_toupper.c) | int	ft_toupper(int ch)| Преобразует буквы из нижнего ригистра в верхний.|
 |[ft_tolower](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_tolower.c) | int	ft_tolower(int ch)| Преобразует буквы из верхнего регистра в нижний.|
-|[ft_strchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strchr.c)  |
-|[ft_strrchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strrchr.c) |
-|[ft_strncmp](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strncmp.c) |
+|[ft_strchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strchr.c)  | char	\*ft_strchr(const char \*s, int c)| Возвращает первое вхождения символа c в строку с указателем s.|
+|[ft_strrchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strrchr.c) | char	\*ft_strrchr(const char \*s, int c)| Возвращает последнее вхождение символа c в строку с указателем s.|
+|[ft_strncmp](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strncmp.c) | int	ft_strncmp(const char \*str1, const char \*str2, size_t n)|
 |[ft_memchr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memchr.c)  |
 |[ft_memcmp](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memcmp.c)  |
 |[ft_strnstr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strnstr.c) |
