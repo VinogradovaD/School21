@@ -10,9 +10,9 @@
 |[ft_strlen](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlen.c)  | size_t	ft_strlen(const char \*s)| Возвращает длину входной строки.|
 |[ft_memset](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memset.c)  | void	\*ft_memset(void \*buf, int ch, size_t count)| Заполняет count байтов блока памяти по указателю buf символом сh.|
 |[ft_bzero](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_bzero.c)    | void	ft_bzero(void \*buf, size_t count) | Заполняет count байтов блока памяти по указателю buf нулевым значением.|
-|[ft_memcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memcpy.c)  | void	\*ft_memcpy(void \*dst, const void \*src, size_t n) | Rопирует n байтов первого блока памяти, на который ссылается указатель src, во второй блок памяти, на который ссылается указатель dst.|
-|[ft_memmove]() |
-|[ft_strlcpy]() |
+|[ft_memcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memcpy.c)  | void	\*ft_memcpy(void \*dst, const void \*src, size_t n)| Копирует n байт из первого блока памяти, на который указывает параметр src, во второй блок памяти, на который указывет параметр dst.|
+|[ft_memmove](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_memmove.c)| void	\*ft_memmove(void \*dst, const void \*src, size_t len)| Копирует так же, как и ft_memcpy, но при этом массивы могу тпересекаться. 
+|[ft_strlcpy](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%201/ft_strlcpy.c)| size_t	ft_strlcpy(char \*dst, const char \*src, size_t dstsize)| 
 |[ft_strlcat]() |
 |[ft_toupper]() |
 |[ft_tolower]() |
