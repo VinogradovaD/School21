@@ -56,6 +56,6 @@
 |[ft_lstdelone](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstdelone.c)      |void	ft_lstdelone(t_list \*lst, void (\*del)(void \*))|Освобождает память содержимого элемента с помощью функции del.|
 |[ft_lstclear](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstclear.c)        |void	ft_lstclear(t_list \**lst, void (\*del)(void \*))|Освобождает память содержимого списка с помощью функции del.|
 |[ft_lstiter](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstiter.c)          |void	ft_lstiter(t_list *lst, void (*f)(void *))|Применяет к каждому элементу списка функцию f.|
-|[ft_lstmap](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstmap.c)            |t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))Создает новый список на основе старого и применяет к каждому элементу функцию f.|
+|[ft_lstmap](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstmap.c)            |t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))|Создает новый список на основе старого и применяет к каждому элементу функцию f.|
 
 
