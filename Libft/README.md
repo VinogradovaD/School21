@@ -33,15 +33,15 @@
 | -------------------------------------------------------------------------------------------------- |---------------|---------------|
 |[ft_substr](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_substr.c)        |char	\*ft_substr(char const \*s, unsigned int start, size_t len)| Возвращает подстроку длины len, начинающуюся с элемента по указателю start в строке с указателем s|
 |[ft_strjoin](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strjoin.c)      |char	\*ft_strjoin(char const \*s1, char const \*s2)| Возращает новую строку, которая состоит из строк с указателями s1 и s2.|
-|[ft_strtrim](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strtrim.c)      |
-|[ft_split](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_split.c)          |
-|[ft_itoa](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_itoa.c)            |
-|[ft_strmapi](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strmapi.c)      |
-|[ft_striteri](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_striteri.c)    |
-|[ft_putchar_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putchar_fd.c)|
-|[ft_putstr_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putstr_fd.c)  |
-|[ft_putendl_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putendl_fd.c)|
-|[ft_putnbr_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putnbr_fd.c)  |
+|[ft_strtrim](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strtrim.c)      |char	\*ft_strtrim(char const \*s1, char const \*set)|Отбрасывает символы из массива set с начала и с конца строки.|
+|[ft_split](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_split.c)          |char	\**ft_split(char const \*s, char c)|Разделяет слова по указателю с.|
+|[ft_itoa](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_itoa.c)            |char	\*ft_itoa(int n)|Конвертирует число n в строку.|
+|[ft_strmapi](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_strmapi.c)      |char	\*ft_strmapi(char const \*s, char (\*f)(unsigned int, char))|Возвращает новый массив с элементами из массива с указателем s, к которым применяется функция f.|
+|[ft_striteri](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_striteri.c)    |void	ft_striteri(char \*s, void (\*f)(unsigned int, char\*))|Применяет функцию f к каждому элементу массива с указателем s.|
+|[ft_putchar_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putchar_fd.c)|void	ft_putchar_fd(char c, int fd)|Выводит символ с в указанный файловый дескриптор fd.|
+|[ft_putstr_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putstr_fd.c)  |void	ft_putstr_fd(char \*s, int fd)|Выводит строку с указателем s в указанный файловый дескриптор fd.|
+|[ft_putendl_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putendl_fd.c)|void	ft_putendl_fd(char \*s, int fd)|Выводит строку с указателем s в указанный файловый дескриптор fd, затем переходит на новую строку.|
+|[ft_putnbr_fd](https://github.com/VinogradovaD/School_21/blob/main/Libft/Часть%202/ft_putnbr_fd.c)  |void	ft_putnbr_fd(int n, int fd)|Выводит  число n в указанный файловый дескриптор fd.|
 
 
 ## Бонусы
