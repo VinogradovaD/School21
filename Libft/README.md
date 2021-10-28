@@ -47,15 +47,15 @@
 ## Бонусы
 
 | Функция           | Прототип      | Описание      |
-| ----------------- |---------------|---------------|
-|[ft_lstnew]()      |
-|[ft_lstadd_front]()|
-|[ft_lstsize]()     |
-|[ft_lstlast]()     |
-|[ft_lstadd_back]() |
-|[ft_lstdelone]()   |
-|[ft_lstclear]()    |
-|[ft_lstiter]()     |
-|[ft_lstmap]()      |
+| ----------------- |-------------- |---------------|
+|[ft_lstnew](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstnew.c)            |Создает новый элемент структуры с данными content.|
+|[ft_lstadd_front](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstadd_front.c)|Добавляет новый элемент струткуры начало списка
+|[ft_lstsize](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstsize.c)          |
+|[ft_lstlast](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstlast.c)          |
+|[ft_lstadd_back](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstadd_back.c)  |
+|[ft_lstdelone](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstdelone.c)      |
+|[ft_lstclear](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstclear.c)        |
+|[ft_lstiter](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstiter.c)          |
+|[ft_lstmap](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstmap.c)            |
 
 
