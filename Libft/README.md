@@ -49,13 +49,13 @@
 | Функция                                                                                                                   | Прототип      | Описание      |
 | ------------------------------------------------------------------------------------------------------------------------- |-------------- |---------------|
 |[ft_lstnew](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstnew.c)|t_list	\*ft_lstnew(void \*content)|Создает новый элемент структуры с данными content.|
-|[ft_lstadd_front](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstadd_front.c)|void	ft_lstadd_front(t_list \**lst, t_list \*new)|Добавляет новый элемент струткуры начало списка.
-|[ft_lstsize](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstsize.c)          |int	ft_lstsize(t_list \*lst)| Возвращает количетсов элементов списка.|
-|[ft_lstlast](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstlast.c)          |t_list	\*ft_lstlast(t_list \*lst)|
-|[ft_lstadd_back](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstadd_back.c)  |
-|[ft_lstdelone](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstdelone.c)      |
-|[ft_lstclear](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstclear.c)        |
-|[ft_lstiter](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstiter.c)          |
-|[ft_lstmap](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstmap.c)            |
+|[ft_lstadd_front](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstadd_front.c)|void	ft_lstadd_front(t_list \**lst, t_list \*new)|Добавляет новый элемент структуры начало списка.
+|[ft_lstsize](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstsize.c)          |int	ft_lstsize(t_list \*lst)| Возвращает количество элементов списка.|
+|[ft_lstlast](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstlast.c)          |t_list	\*ft_lstlast(t_list \*lst)| Возвращает последний элемент списка.|
+|[ft_lstadd_back](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstadd_back.c)  |void	ft_lstadd_back(t_list \**lst, t_list \*new)|Добавляет новый элемент структуры в конец списка.|
+|[ft_lstdelone](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstdelone.c)      |void	ft_lstdelone(t_list \*lst, void (\*del)(void \*))|Освобождает память содержимого элемента с помощью функции del.|
+|[ft_lstclear](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstclear.c)        |void	ft_lstclear(t_list \**lst, void (\*del)(void \*))|Освобождает память содержимого списка с помощью функции del.|
+|[ft_lstiter](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstiter.c)          |void	ft_lstiter(t_list *lst, void (*f)(void *))|Применяет к каждому элементу списка функцию f.|
+|[ft_lstmap](https://github.com/VinogradovaD/School_21/blob/main/Libft/%D0%91%D0%BE%D0%BD%D1%83%D1%81%D1%8B/ft_lstmap.c)            |t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))Создает новый список на основе старого и применяет к каждому элементу функцию f.|
 
 
