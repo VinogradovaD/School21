@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/23 14:17:30 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/23 14:51:19 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:08:17 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:37:43 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -14,8 +14,8 @@
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;
-	int 			len;
-	char 			*ans;
+	int				len;
+	char			*ans;
 
 	i = 0;
 	if (s == NULL || f == NULL)

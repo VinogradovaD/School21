@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/17 18:26:47 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/20 15:29:22 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:10:31 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:10:37 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -20,9 +20,7 @@ int	ft_atoi(const char *str)
 	negative = 1;
 	while (*str && (*str == ' ' || *str == '\t' || *str == '\n' || *str == '\v'
 			|| *str == '\f' || *str == '\r'))
-	{
 		str++;
-	}
 	if (*str == '+')
 		str++;
 	else if (*str == '-')

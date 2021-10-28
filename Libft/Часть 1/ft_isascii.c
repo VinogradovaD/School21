@@ -5,15 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/09 16:48:31 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/16 15:49:55 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:19:46 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:19:51 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 int	ft_isascii(int ch)
 {
-	if (ch >= 0 && ch <= 127)
-		return (1);
-	else
-		return (0);
+	return (ch >= 0 && ch <= 127);
 }

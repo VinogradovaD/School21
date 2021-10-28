@@ -5,11 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 12:59:51 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/20 15:22:55 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:24:19 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:33:28 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)

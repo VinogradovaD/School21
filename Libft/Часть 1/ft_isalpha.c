@@ -5,15 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/09 16:48:16 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/09 16:56:33 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:19:21 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:19:32 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 int	ft_isalpha(int ch)
 {
-	if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
-		return (1);
-	else
-		return (0);
+	return ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'));
 }

@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/23 15:07:11 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/23 15:11:06 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:05:50 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:05:53 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
 	if (s == NULL)
-		return;
+		return ;
 	while (*s)
 	{
 		ft_putchar_fd(*s, fd);

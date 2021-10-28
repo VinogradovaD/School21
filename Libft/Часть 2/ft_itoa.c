@@ -5,47 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/25 12:17:47 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/25 18:08:16 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:00:29 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:01:46 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-char	*ft_itoa(int n)
-{
-	int	l;
-	char	*str;
-
-	l = len(n);
-	str = (char *) malloc(sizeof(char) * (l + 1));
-	if (!str)
-		return (NULL);
-	str[l--] = '\0';
-	if (n == 0)
-	{
-		str[l] = '0';
-		return (str);
-	}
-	if (n == -2147483648)
-	{
-		str[0] = '-';
-		str[l--] = 8 + '0';
-		n /= 10;
-	}
-	while (n != 0)
-	{
-		if (n < 0)
-		{
-			str[0] = '-';
-			n *= (-1);
-		}
-		str[l--] = n % 10 + '0';
-		n /= 10;
-	}
-	return (str);
-}
-
-int len(int n)
+int	len(int n)
 {
 	int	l;
 
@@ -59,4 +25,40 @@ int len(int n)
 	}
 	l++;
 	return (l);
+}
+
+void	add_num(char *str, int n, int l)
+{
+	if (n == 0)
+		str[0] = '0';
+	while (n != 0)
+	{
+		str[l--] = n % 10 + '0';
+		n /= 10;
+	}
+}
+
+char	*ft_itoa(int n)
+{
+	int		l;
+	char	*str;
+
+	l = len(n);
+	str = (char *)malloc(sizeof(char) * (l + 1));
+	if (!str)
+		return (NULL);
+	str[l--] = '\0';
+	if (n < 0)
+	{
+		str[0] = '-';
+		if (n == -2147483648)
+		{
+			str[l--] = 8 + '0';
+			n /= 10;
+		}
+		add_num(str, n * (-1), l);
+	}
+	else
+		add_num(str, n, l);
+	return (str);
 }

@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/23 15:51:08 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/23 16:28:54 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:05:19 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:05:30 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
 	if (n == -2147483648)
 	{
@@ -27,7 +27,7 @@ void ft_putnbr_fd(int n, int fd)
 	else
 	{
 		if (n >= 10)
-			ft_putnbr_fd(n/10, fd);
-		ft_putchar_fd(n%10 + 48, fd);
+			ft_putnbr_fd(n / 10, fd);
+		ft_putchar_fd(n % 10 + 48, fd);
 	}
 }

@@ -5,11 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/16 16:12:47 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/20 15:13:33 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:26:11 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:26:17 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)

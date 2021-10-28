@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/25 17:23:59 by                   #+#    #+#             */
-/*   Updated: 2021/10/25 17:26:23 by                  ###   ########.fr       */
+/*   Created: 2021/10/28 13:57:35 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 13:57:39 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void ft_lstiter(t_list *lst, void (*f)(void *))
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	while (lst && f)
 	{

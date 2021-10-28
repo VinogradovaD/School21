@@ -3,19 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/25 16:21:31 by                   #+#    #+#             */
-/*   Updated: 2021/10/25 16:27:54 by                  ###   ########.fr       */
+/*   Created: 2021/10/28 13:57:57 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 13:58:01 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-t_list *ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
-	if(lst)
+	if (lst)
 		while (lst->next)
 			lst = lst->next;
 	return (lst);
 }
-

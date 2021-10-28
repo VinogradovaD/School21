@@ -5,11 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 16:37:48 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/20 15:23:39 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:25:06 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:33:46 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
@@ -25,8 +24,6 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		}
 	}
 	else
-	{
 		ft_memcpy(dst, src, len);
-	}
 	return (dst);
 }

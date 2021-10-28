@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/23 14:52:51 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/23 14:57:36 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:06:31 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:39:48 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void ft_striteri(char *s, void (*f)(unsigned int, char*))
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int	i;
 

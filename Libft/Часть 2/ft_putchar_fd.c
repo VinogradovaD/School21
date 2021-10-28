@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/23 15:00:33 by clockhar          #+#    #+#             */
-/*   Updated: 2021/10/23 17:33:29 by clockhar         ###   ########.fr       */
+/*   Created: 2021/10/28 14:02:20 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 14:02:24 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
 {
-	write (fd, &c,1);
+	write (fd, &c, 1);
 }

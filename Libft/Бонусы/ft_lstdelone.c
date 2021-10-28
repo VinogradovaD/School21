@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: clockhar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/25 16:51:08 by                   #+#    #+#             */
-/*   Updated: 2021/10/25 16:51:21 by                  ###   ########.fr       */
+/*   Created: 2021/10/28 13:57:16 by clockhar          #+#    #+#             */
+/*   Updated: 2021/10/28 13:57:22 by clockhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void ft_lstdelone(t_list *lst, void (*del)(void *))
+void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (lst)
 	{
@@ -19,4 +19,3 @@ void ft_lstdelone(t_list *lst, void (*del)(void *))
 		free(lst);
 	}
 }
-
