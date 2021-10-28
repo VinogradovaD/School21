@@ -6,7 +6,7 @@
 #    By: clockhar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/11 16:31:56 by clockhar          #+#    #+#              #
-#   Updated: 2021/10/23 15:43:18 by                  ###   ########.fr       # #
+#   Updated: 2021/10/25 17:24:15 by                  ###   ########.fr       # #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,6 @@ HEADER = libft.h
 CC = gcc
 
 FLAGS = -Wall -Wextra -Werror -I$(HEADER)
-
 
 SRC = ft_isalpha.c\
 	  ft_isdigit.c\
@@ -46,31 +45,38 @@ SRC = ft_isalpha.c\
 	  ft_strjoin.c\
 	  ft_strtrim.c\
 	  ft_split.c\
+	  ft_itoa.c\
 	  ft_strmapi.c\
 	  ft_striteri.c\
 	  ft_putchar_fd.c\
 	  ft_putstr_fd.c\
 	  ft_putendl_fd.c\
 	  ft_putnbr_fd.c
+	  
+SRC_B = ft_lstnew.c				ft_lstadd_front.c		ft_lstsize.c	\
+        ft_lstlast.c			ft_lstadd_back.c		ft_lstdelone.c	\
+        ft_lstclear.c			ft_lstiter.c			ft_lstmap.c
 
+OBJ = $(SRC:%.c= %.o)
+OBJ_B = $(SRC_B:%.c=%.o)
 
-OBJECT = $(SRC:%.c= %.o)
-
-.PHONY : all clean fclean re
+.PHONY : all clean fclean re bonus
 
 all : $(NAME)
 
-$(NAME) : $(OBJECT) $(HEADER)
+$(NAME) : $(OBJ) $(HEADER)
 	ar rcs $(NAME) $?
 
 %.o	: %.c $(HEADER)
 	$(CC) $(FLAGS) -c $< -o $@
 
+bonus : $(OBJ_B)
+		@make OBJ='$(OBJ_B)' SRC='$(SRC_B)' all
+	
 clean	:
-	@rm -f $(OBJECT)
+	@rm -f $(OBJ) $(OBJ_B)
 
 fclean	:	clean
 	@$(RM) $(NAME)
 
 re	:	fclean all
-
